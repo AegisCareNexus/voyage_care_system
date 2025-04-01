@@ -1,0 +1,19 @@
+# Voyage Care Management System
+
+A console-based care management system for Voyage Care–style support services.
+
+## Features
+
+- 🔐 Secure staff login and registration (bcrypt)
+- 👤 Add and manage service users
+- 📝 Add timestamped care notes
+- 📅 Schedule appointments with staff
+- 💾 Data stored in JSON files
+
+## Setup
+
+```bash
+git clone https://github.com/your-username/voyage-care-management-system.git
+cd voyage-care-management-system
+pip install -r requirements.txt
+python voyage_care_system.py
